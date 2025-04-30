@@ -23,6 +23,4 @@ spec:
     spec:
       containers:
       - name: my-container
-        image: dancegep/my-k8s-app:latest
-        ports:
-        - containerPort: 3000
+        image: dancegep/my-k8s-app:qa
