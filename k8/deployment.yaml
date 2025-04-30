@@ -23,4 +23,4 @@ spec:
     spec:
       containers:
       - name: my-container
-        image: dancegep/my-k8s-app:qa
+        image: 1983764/my-k8s-app:qa
