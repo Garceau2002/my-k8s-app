@@ -23,8 +23,6 @@ spec:
     spec:
       containers:
       - name: my-container
-        image: dancegep/my-k8s-app:qa
-        imagePullPolicy: Always
+        image: dancegep/my-k8s-app:latest
         ports:
         - containerPort: 3000
-        restartPolicy: Always
